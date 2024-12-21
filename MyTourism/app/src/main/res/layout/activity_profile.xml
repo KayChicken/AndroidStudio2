@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.Profile.Profile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_img"
+            android:background="@drawable/edit_text_background"
+            app:shapeAppearanceOverlay="@style/circleImageView"
+            android:scaleType="centerCrop"
+            app:strokeColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/userProfileEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Имя"
+            android:layout_gravity="left"
+            android:textColor="#5F7691"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="441dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background_grey"
+            android:hint="Имя"
+            android:padding="12dp"
+            android:textColor="#5F7691"
+            android:textColorHint="#5F7691"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="470dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Фамилия"
+            android:layout_gravity="left"
+            android:textColor="#5F7691"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="441dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edit_text_background_grey"
+            android:hint="Фамилия"
+            android:padding="12dp"
+            android:textColor="#5F7691"
+            android:textColorHint="#5F7691"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="470dp" />
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green"
+            android:text="Редактировать профиль" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Грибов распознано"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="🍄"
+            android:textSize="57dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="26"
+            android:textSize="16dp"
+            />
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:text="Выйти из аккаунта" />
+
+    </LinearLayout>
+
+</RelativeLayout>

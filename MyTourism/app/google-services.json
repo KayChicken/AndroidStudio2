@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511351416747",
+    "project_id": "mytourism-5595a",
+    "storage_bucket": "mytourism-5595a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511351416747:android:460e3bcd114afba60bd4ee",
+        "android_client_info": {
+          "package_name": "com.android.mytourism"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEiVQlw-0YFP4sTCyYGVkyWxLF6brLFJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511351416747:android:6fc0f1e79721a8dc0bd4ee",
+        "android_client_info": {
+          "package_name": "ru.mirea.kainov.mytourism"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEiVQlw-0YFP4sTCyYGVkyWxLF6brLFJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

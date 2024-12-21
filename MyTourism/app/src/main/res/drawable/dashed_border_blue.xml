@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/dashed_border.xml -->
+<!-- res/drawable/dashed_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Цвет фона view (если нужен) -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Настройки границы -->
+    <stroke
+        android:width="4dp"
+        android:color="#06B5E1"
+        android:dashGap="5dp"
+        android:dashWidth="30dp"
+        />
+
+</shape>
