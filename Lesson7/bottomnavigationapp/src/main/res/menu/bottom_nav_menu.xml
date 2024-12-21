@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Главная"
+        android:icon="@drawable/baseline_breakfast_dining_24"/>
+    <item
+        android:id="@+id/navigation_profile"
+        android:title="Профиль"
+        android:icon="@drawable/baseline_assignment_ind_24"/>
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="Настройки"
+        android:icon="@drawable/baseline_build_circle_24"/>
+</menu>
